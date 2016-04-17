@@ -28,6 +28,7 @@ color: black;
 margin-left: 10px;
 font-size: 80px;
 text-align: center; 
+text-shadow: 5px 5px 5px white;
 }
 
 h2
@@ -37,6 +38,7 @@ color: black;
 margin-left: 10px;
 font-size: 40px;
 text-align: center; 
+text-shadow: 5px 5px 5px grey;
 }
 
 h3
@@ -45,6 +47,7 @@ font-family: 'Shadows Into Light', cursive;;
 color: white;
 font-size: 30px;
 text-align: center; 
+text-shadow: 3px 3px 3px black;
 }
 
 
@@ -63,8 +66,15 @@ height: 50px;
 background: purple;
 border-radius: 10px;
 
+
 }
 
+
+
+ul li:hover
+{
+	background-color: skyblue ;
+}
 ul
 {
 margin: auto;
@@ -139,7 +149,7 @@ section
 	width:300px;
 }
 .contact_form button {
-	margin-left:90px;
+	margin-left:0px;
 }
 footer
 {
